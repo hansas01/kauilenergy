@@ -1,0 +1,25 @@
+.site-footer {
+    background-color: #3a3a3a; /* Grey background color similar to a cool Volvo */
+    color: #ffffff; /* White text color */
+    padding: 20px 0;
+}
+
+.site-footer a {
+    color: #ffffff; /* White color for links */
+}
+
+.site-footer a:hover {
+    color: #d4d4d4; /* Lighter grey color on hover */
+}
+
+.site-footer h5 {
+    margin-bottom: 20px;
+}
+
+.site-footer .btn-link {
+    color: #ffffff; /* White color for phone and email links */
+}
+
+.site-footer .btn-link:hover {
+    color: #d4d4d4; /* Lighter grey color on hover */
+}
