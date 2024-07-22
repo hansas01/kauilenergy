@@ -1,0 +1,17 @@
+.item-name {
+    max-width: 100px; /* Adjust the width as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.quantity-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}

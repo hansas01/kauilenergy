@@ -1,0 +1,18 @@
+/* ContactForm.css */
+
+.text-danger {
+    text-align: left;
+    color: red;
+    margin-top: 0.25rem;
+    font-size: 1.0rem;
+}
+
+.input-group-icon {
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+    /*height: 40px; /* Make the icon container the same height as the input */
+}
+
+.input-group-icon .fa-envelope {
+    font-size: 1rem; /* Adjust icon size if necessary */
+}

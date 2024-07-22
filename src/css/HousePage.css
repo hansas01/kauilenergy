@@ -1,0 +1,87 @@
+/* General Carousel Styles */
+.carousel {
+    max-width: 100%;
+    max-height: 800px; /* Adjust the height as needed */
+    margin: auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 700px; /* Adjust the height as needed for larger screens */
+    object-fit: cover; /* Ensure the image covers the carousel item without stretching */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Default for larger screens */
+}
+
+/* Special handling for specific aspect ratio images */
+.carousel-item img.special-aspect-ratio {
+    object-fit: contain; /* Ensures the image is fully visible within the container */
+}
+
+/* Featurette Styles */
+.featurette {
+    display: flex;
+    align-items: center;
+}
+
+.featurette-divider {
+    margin: 3rem 0; /* Adjust the margin value to provide more space */
+}
+
+.featurette-image {
+    width: 60%;
+    height: auto;
+}
+
+.featurette .col-md-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Styles for Smaller Screens ie phones */
+@media (max-width: 768px) {
+    /* Adjust carousel images for smaller screens */
+    .carousel-item img {
+        object-fit: cover; /* Change to cover for maintaining aspect ratio */
+        height: 300px; /* Set a fixed height for smaller screens */
+        width: 100%;
+    }
+
+    .carousel-caption {
+        font-size: 12px; /* Adjust caption font size for smaller screens */
+    }
+
+    .carousel-item {
+        height: 300px; /* Set a fixed height for smaller screens */
+    }
+
+    .carousel {
+        max-height: 300px; /* Set a fixed height for the carousel */
+    }
+
+    /* Adjust featurette images for smaller screens */
+    .featurette-image {
+        width: 100%; /* Ensure the images take full width on smaller screens */
+        height: auto;
+    }
+
+    /* Adjust text alignment for featurettes */
+    .featurette .col-md-7 {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .featurette .col-md-5 {
+        text-align: center;
+    }
+}

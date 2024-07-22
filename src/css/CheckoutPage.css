@@ -1,0 +1,9 @@
+.custom-progress-bar {
+    height: auto; /* Adjust the height as needed */
+    line-height: auto; /* Align the text vertically */
+}
+
+.custom-progress-bar .progress-bar {
+    display: flex;
+    align-items: center; /* Center the text vertically */
+}

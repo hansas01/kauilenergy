@@ -1,0 +1,70 @@
+/* Blog Card Styles */
+.blog-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.blog-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card-title {
+  font-size: 1.25rem; /* Bootstrap's default font size for card titles */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.blog-card-summary {
+  font-size: 1rem; /* Bootstrap's default font size for card text */
+  color: #555;
+}
+
+.blog-card-details {
+  font-size: 0.875rem; /* Bootstrap's small text size */
+  color: #777;
+}
+
+.blog-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Blog Post Styles */
+.blog-post {
+  text-align: left; /* Align text to the left */
+  font-size: 1.1rem; /* Slightly bigger font size */
+  line-height: 1.6;  /* Better readability */
+  margin: 20px 0;
+}
+
+.blog-post-title {
+  font-size: 1.5rem;  /* Larger font size for titles */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.blog-post p {
+  margin-bottom: 15px;
+}
+
+.blog-post hr {
+  margin: 30px 0;
+}
+/* Centering the Image */
+.blog-post img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+/* Centering blog post meta */
+.blog-post-meta {
+  text-align: center;
+  font-size: 0.875rem; /* Adjust as needed */
+  color: #777;
+}

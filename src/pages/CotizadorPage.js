@@ -1,7 +1,7 @@
 import { Container } from "reactstrap";
 import SubHeader from '../components/SubHeader';
 
-const HomePage = () => {
+const CotizadorPage = () => {
     return (
         <Container>
             <SubHeader current='Cotizador' />
@@ -9,4 +9,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage; 
+export default CotizadorPage; 

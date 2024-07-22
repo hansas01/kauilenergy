@@ -1,0 +1,32 @@
+.kauil-logo {
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .kauil-logo {
+        width: 75%;
+        height: auto;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: flex-start; /* Ensures logo is always aligned to the left */
+        align-items: center;
+    }
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link .fa-shopping-cart {
+    margin-right: 5px; /* Adjust margin as needed */
+}
+
+.nav-link .badge {
+    background-color: red;
+    margin-left: 5px; /* Adjust margin as needed */
+    font-size: 0.8rem; /* Adjust font size as needed */
+}
