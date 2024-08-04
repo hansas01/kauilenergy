@@ -60,7 +60,7 @@ const HousePage = () => {
       <div className="row featurette">
         <div className="col-md-7">
           <h2 className="featurette-heading fw-light">Te presentamos la Casa Kauil. <span className="text-muted">Creemos que te va a gustar...</span></h2>
-          <p className="lead text-muted">La Casa Kauil viene con banco de baterías para operar sin la Comisión Federal de Electricidad cuando hay fallas de electricidad. Con los aires acondicionados te mantienes fresco durante un apagón y siempre estarás comunicado con tus familiares durante un sismo.</p>
+          <p className="lead text-muted">La Casa Kauil viene con banco de baterías para operar sin la Comisión Federal de Electricidad cuando hay fallas de electricidad. Con aire acondicionado te mantienes fresco durante un apagón y siempre estarás comunicado con tus familiares durante un sismo.</p>
           <Button color="btn btn-primary btn-lg rounded-pill" type="button">¡La quiero!</Button>
         </div>
         <div className="col-md-5">

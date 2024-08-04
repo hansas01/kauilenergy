@@ -21,4 +21,4 @@ const SubHeader = ({ current, detail }) => {
     )
 };
 
-export default SubHeader
+export default SubHeader;

@@ -1,0 +1,16 @@
+.table td {
+  padding: 0; /* Remove default padding */
+}
+
+.form-control {
+  margin: 0; /* Remove margin */
+  padding: 0.375rem 0.75rem; /* Adjust padding inside input fields */
+}
+
+.input-group {
+  margin: 0; /* Remove margin from input group */
+}
+
+.input-group-prepend, .input-group-append {
+  margin: 0; /* Remove margin from input group prepend/append */
+}
